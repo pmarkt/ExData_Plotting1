@@ -4,11 +4,11 @@ The four R scripts (plot1.R, plot2.R, plot3.R, plot4.R) use data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
 Learning Repository</a>. In particular, they use the "Individual household
 electric power consumption Data Set" to produce 4 graphs for the dates
-2/1/2007 and 2/2/2007. The graphs are:
-* a histogram of global active power
-* a line graph of global active power by date and time
-* a line graph of the 3 different sub-metering values by datetime
-* a 2 by 2 set of graphs that include 2 and 3 above, plus voltage and global reactive power by datetime
+2/1/2007 and 2/2/2007. The graphs are: 
+a histogram of global active power,
+a line graph of global active power by date and time,
+a line graph of the 3 different sub-metering values by datetime
+and a 2 by 2 set of graphs that include 2 of the above, plus voltage and global reactive power by datetime
 
 * <b>Dataset</b>: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> [20Mb]
 
