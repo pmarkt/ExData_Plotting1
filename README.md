@@ -36,7 +36,8 @@ web site</a>:
 
 ## Running the scripts
 
-All of the R scripts will obtain the data from the website, unzip the data file, and place the unzipped file in
-a subdirectory named "data".
+All of the R scripts will obtain the data from the website link above, unzip the data file, and place the unzipped file in
+a subdirectory of your working directory named "data".
 
-The scripts use only data from the dates 2007-02-01 and 2007-02-02. 
+The scripts use only data from the dates 2007-02-01 and 2007-02-02. All plots are produced on the screen device, and 
+are also copied to PNG files, also included in this repository.
