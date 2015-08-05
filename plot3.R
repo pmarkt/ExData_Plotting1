@@ -26,7 +26,7 @@ download.file(url,destfile="./exdata%2Fdata%2Fhousehold_power_consumption.zip")
     plot(working_table$DateTime,working_table$Sub_metering_1,type="l",xlab="",ylab="Energy sub metering")
          lines(working_table$DateTime,working_table$Sub_metering_2,col="red")
          lines(working_table$DateTime,working_table$Sub_metering_3,col="blue")
-         legend('topright', names(working_table)[7:9],lty=1, col=c('black', 'red',' blue'), bty='n', cex=.7)
+         legend('topright', names(working_table)[7:9],lty=1, col=c('black', 'red',' blue'), cex=.7)
 ## Copy chart to PNG file
     dev.copy(png, file = "plot3.png",width=480,height=480) 
     dev.off()
